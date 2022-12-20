@@ -1,0 +1,14 @@
+---
+title: "Lecture 1"
+author: "Ibrahim Tugrul Cinar"
+date: "2022-12-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+*italik*, ~~strike~~, **bold**, [google](http://google.com)
