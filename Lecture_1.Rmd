@@ -6,9 +6,81 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+
+library(vembedr)
+
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Introduction
+# Financial Markets
+
+Financial markets are places where financial instruments, such as stocks, bonds, and currencies, are bought and sold. Financial markets can be divided into two main categories: **capital markets** and **money markets**.
+
+::: {.alert .alert-success role="alert"}
+A **market** is a place where buyers and sellers come together to exchange goods or services. Markets can take many different forms, such as physical markets, where people meet in person to buy and sell goods, or virtual markets, where people buy and sell goods online. In a market, prices are determined by the supply and demand for a particular product or service.
+:::
+
+**Capital markets** are markets where *long-term* financial instruments, such as stocks and bonds, are bought and sold. These markets provide companies with a way to raise capital by issuing securities. The stock market is an example of a capital market.
+
+**Money markets** are markets where *short-term* financial instruments, such as Treasury bills (also known as T-bills), are bought and sold. These markets provide companies and governments with a way to raise short-term funds and provide investors with a place to invest their money for a short period of time.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+embed_youtube("xQs6Ug4MGls", height = 480, width = 900) 
+
+```
+
+
+::: {.alert .alert-danger role="alert"}
+
+One common usage of **long-term** and **short-term** in financial economics is to describe the maturity of a financial instrument. A **long-term** financial instrument has a **maturity of more than one year**, while a **short-term** instrument has a **maturity of one year or less**. For example, a 2-year bond is considered a long-term bond, while a three-month Treasury bill is considered a short-term instrument.
+:::
+
+::: {.alert .alert-success role="alert"}
+**Equity vs. Debt vs. Security**
+
+Equity is a form of ownership in the firm and equity holders are known as the 'owners' of the firm and its assets. Debt refers to money that a company borrows from lenders and is required to be repaid with interest. Securities refer to a broader set of financial instruments that can both represent ownership in a company or a debt obligation. such as bonds, stocks, futures, forwards, options, swaps, etc.
+:::
+
+::: {.alert .alert-success role="alert"}
+
+**Stock vs. Share**
+
+A stock represents ownership in a company, and a share is a unit of stock. When a company wants to raise capital, it can issue stocks to investors in exchange for money. The investors who purchase the stocks become shareholders in the company. Each shareholder owns a percentage of the company based on the number of shares they hold.
+
+For example, if a company has 1,000 shares of stock and an investor purchases 100 of those shares, the investor would own 10% of the company. 
+
+Shares can be bought and sold on stock exchanges, and the price of a share is determined by the demand for the stock and the overall performance of the company. 
+
+In summary, a stock represents ownership in a company, and a share is a unit of stock that can be bought or sold on a stock exchange.
+
+:::
+
+::: {.alert .alert-success role="alert"}
+**Benchmark interest rate vs. Policy rate**
+
+A **benchmark interest rate** is the interest rate that used as a reference point for setting the interest rates on financial instruments. Benchmark interest rates are not set by the central bank, but rather are determined by the supply and demand for financial instruments in the market. 2-year treasury bond rate
+
+A **policy interest rate** (or policy rate), on the other hand, is the interest rate that is set by the central bank as part of its monetary policy. By setting the policy interest rate, the central bank can affect the cost of borrowing for households, businesses, and financial institutions, which in turn can impact the level of spending and investment in the economy.
+
+While the **benchmark interest rate** influences savings and investment decisions, the **policy rate** is more of a tool used by the central bank to adjust the supply of money (liquidity) in the economy.
+
+In Turkey, the interest rate on a *2-year Treasury bond* is considered the benchmark interest rate. In addition, the policy rate is the *weekly repo rate* set by the Central Bank.
+:::
 
 *italik*, ~~strike~~, **bold**, [google](http://google.com)
+
+[underline]{.underline}
+
+| column 1 | column 2 |
+|:---------|:---------|
+
+::: {.alert .alert-success role="alert"}
+
+Money and currency are related but distinct concepts. Money is a medium of exchange that is widely accepted in transactions for goods and services. It is a way to store value and transfer wealth between people, businesses, and governments. Money can take various forms, such as physical objects like coins and paper notes, or digital forms like electronic bank transfers and mobile payments.
+
+Currency, on the other hand, refers specifically to the physical or digital money that is issued and backed by a government. It is a type of money that is accepted as a medium of exchange within a country. Currency is issued by a central bank and is regulated by the government.
+
+:::
+
+[**Financial markets**]{style="color:blue"}
